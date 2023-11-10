@@ -1,0 +1,32 @@
+body {
+  height: 95vh;
+  width: 95;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(44, 139, 44);
+  background-color: rgb(226, 250, 215);
+  font-weight: bold;
+}
+
+canvas {
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 6px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px;
+  background-color: rgb(44, 139, 44);
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+  border: none;
+}
